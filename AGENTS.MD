@@ -21,12 +21,12 @@ Native WordPress plugin wrapping the Tenders-SA Developer API v2 (`api.tenders-s
 | `src/Api/Endpoints.php` | Endpoint constants, parameter builders |
 | `src/Cache/TendersaCache.php` | Transient-based response cache |
 | `src/Admin/SettingsPage.php` | Settings page with test connection |
-| `src/Admin/HelpPage.php` | Usage docs + shortcode generator |
+| `src/shortcode-processor.php` | Shared rendering helpers (template locate, error, sanitize) |
 | `src/Shortcodes/TenderList.php` | `[tendersa_list]` |
 | `src/Shortcodes/TenderDetail.php` | `[tendersa_detail]` |
 | `src/Shortcodes/TenderSearch.php` | `[tendersa_search]` |
 | `src/Shortcodes/TenderCounts.php` | `[tendersa_counts]` |
-| `src/Shortcodes/TenderMap.php` | `[tendersa_provinces]` |
+| `src/Shortcodes/ProvinceList.php` | `[tendersa_provinces]` |
 | `src/Shortcodes/AwardList.php` | `[tendersa_awards]` |
 | `src/Shortcodes/AwardAnalytics.php` | `[tendersa_award_analytics]` |
 | `src/Shortcodes/CompanyProfile.php` | `[tendersa_company]` |
@@ -45,9 +45,16 @@ Native WordPress plugin wrapping the Tenders-SA Developer API v2 (`api.tenders-s
 | `src/Templates/tender-detail.php` | Default detail template |
 | `src/Templates/award-list.php` | Default award template |
 | `src/Templates/company-profile.php` | Default company template |
+| `src/Templates/closing-soon.php` | Closing-soon list template |
+| `src/Templates/counts.php` | Counts display template |
+| `src/Templates/search-form.php` | Search form template |
+| `src/Templates/search-results.php` | Search results template |
+| `src/Templates/intel-item.php` | Intel item template |
+| `src/Templates/restricted-supplier.php` | Restricted supplier template |
 | `src/Templates/parts/tender-card.php` | Reusable card partial |
 | `src/Templates/parts/pagination.php` | Pagination partial |
 | `src/Templates/parts/filter-bar.php` | Filter bar partial |
+| `src/Templates/parts/rate-limit-notice.php` | Rate limit notice partial |
 | `docs/design.md` | Full plugin design document |
 | `readme.txt` | WordPress.org plugin readme |
 

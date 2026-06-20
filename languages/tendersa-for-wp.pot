@@ -1,0 +1,470 @@
+# Tenders-SA for WordPress
+# Copyright (C) 2026 Tenders-SA
+# This file is distributed under the GPLv2+ license.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Tenders-SA for WordPress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/Tenders-SA/wordpress/issues\n"
+"Last-Translator: Tenders-SA <support@tenders-sa.org>\n"
+"Language-Team: Tenders-SA <support@tenders-sa.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-06-20T00:00:00+00:00\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: tendersa-wp-plugin\n"
+
+#: src/Plugin.php:46
+msgid "Tenders-SA Settings"
+msgstr ""
+
+#: src/Plugin.php:53
+msgid "Tenders-SA"
+msgstr ""
+
+#: src/Plugin.php:74
+msgid "Tenders-SA: Enter your %sAPI key%s to start displaying tender data."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:66
+msgid "API Configuration"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:67
+msgid "Display Defaults"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:68
+msgid "Cache"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:70
+msgid "API Key"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:75
+msgid "Default Items Per Page"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:76
+msgid "Default Sort Order"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:77
+msgid "Default Province Filter"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:78
+msgid "Show Closing Dates"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:79
+msgid "Show Estimated Value"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:80
+msgid "Show Province Badge"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:81
+msgid "Show Description Excerpt"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:82
+msgid "Cache TTL (seconds)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:92
+msgid "Tenders-SA for WordPress"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:101
+msgid "Actions"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:105
+msgid "Test Connection"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:108
+msgid "Flush Cache"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:111
+msgid "Get API Key"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:152
+msgid "Your API key from"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:153
+msgid "Or set"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:155
+msgid "in wp-config.php"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:167
+msgid "Closing Date (newest first)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:168
+msgid "Closing Date (oldest first)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:169
+msgid "Publication Date (newest)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:170
+msgid "Publication Date (oldest)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:171
+msgid "Title (A-Z)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:172
+msgid "Value (highest first)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:173
+msgid "Value (lowest first)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:199
+msgid "API key must start with tsa_prod_"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:242
+msgid "Shortcode Reference"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:244
+msgid "Shortcode"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:244
+msgid "Description"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:246
+msgid "Paginated tender list with filters (province, category, status, search)"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:247
+msgid "Single tender with awards, documents, analysis, timeline"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:248
+msgid "Search box for tenders"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:249
+msgid "Tenders closing within N days"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:250
+msgid "Tender counts by province, category, organization, or status"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:251
+msgid "Awards list with filtering"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:252
+msgid "Award analytics by province, category, B-BBEE level, enterprise type"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:253
+msgid "Supplier profile with awards, contracts, tenders, directors"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:254
+msgid "Procuring organizations list"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:255
+msgid "Director search"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:256
+msgid "Check supplier against restricted list"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:257
+msgid "Intelligence items"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:258
+msgid "CIPC company data"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:259
+msgid "Service types"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:260
+msgid "Industry benchmarks"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:261
+msgid "Province list with tender counts"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:262
+msgid "Full procurement pipeline: tender → awards → contracts → milestones"
+msgstr ""
+
+#: src/Admin/SettingsPage.php:270
+msgid "Connection successful! API is responding."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:271
+msgid "Connection failed: "
+msgstr ""
+
+#: src/Admin/SettingsPage.php:272
+msgid "Cache flushed."
+msgstr ""
+
+#: src/Admin/SettingsPage.php:273
+msgid "No API key configured."
+msgstr ""
+
+#: src/Shortcodes/TenderList.php:90
+msgid "tenders found"
+msgstr ""
+
+#: src/Shortcodes/TenderList.php:111
+msgid "No tenders found."
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:24
+msgid "Tender ID is required."
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:33
+msgid "Tender not found."
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:52
+msgid "Awards"
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:62
+msgid "AI Analysis"
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:67
+msgid "Documents"
+msgstr ""
+
+#: src/Shortcodes/TenderDetail.php:73
+msgid "Document"
+msgstr ""
+
+#: src/Shortcodes/TenderSearch.php:33
+msgid "Search"
+msgstr ""
+
+#: src/Shortcodes/TenderSearch.php:46
+msgid "No results found."
+msgstr ""
+
+#: src/Shortcodes/ClosingSoon.php:30
+msgid "No tenders closing soon."
+msgstr ""
+
+#: src/Shortcodes/ClosingSoon.php:52
+msgid "Closed"
+msgstr ""
+
+#: src/Shortcodes/ClosingSoon.php:54
+msgid "%d day left"
+msgid_plural "%d days left"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/Shortcodes/TenderCounts.php:33
+msgid "Unknown"
+msgstr ""
+
+#: src/Shortcodes/AwardList.php:27
+msgid "No awards found."
+msgstr ""
+
+#: src/Shortcodes/AwardList.php:32
+msgid "Supplier"
+msgstr ""
+
+#: src/Shortcodes/AwardList.php:33
+msgid "Value"
+msgstr ""
+
+#: src/Shortcodes/AwardList.php:34
+msgid "Date"
+msgstr ""
+
+#: src/Shortcodes/OrganizationList.php:28
+msgid "No organizations found."
+msgstr ""
+
+#: src/Shortcodes/OrganizationList.php:36
+msgid "tenders"
+msgstr ""
+
+#: src/Shortcodes/DirectorSearch.php:32
+msgid "Search directors..."
+msgstr ""
+
+#: src/Shortcodes/DirectorSearch.php:40
+msgid "No directors found."
+msgstr ""
+
+#: src/Shortcodes/RestrictedSupplier.php:14
+msgid "Check supplier name..."
+msgstr ""
+
+#: src/Shortcodes/RestrictedSupplier.php:16
+msgid "Check"
+msgstr ""
+
+#: src/Shortcodes/RestrictedSupplier.php:32
+msgid "RESTRICTED"
+msgstr ""
+
+#: src/Shortcodes/IntelItems.php:30
+msgid "No intelligence items."
+msgstr ""
+
+#: src/Shortcodes/ProvinceList.php:26
+msgid "No province data available."
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:27
+msgid "Tender ID is required."
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:32
+msgid "Tender not found."
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:56
+msgid "Tender"
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:60
+msgid "Closing:"
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:67
+msgid "Awards"
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:80
+msgid "Contracts"
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:89
+msgid "Milestones"
+msgstr ""
+
+#: src/Shortcodes/TenderPipeline.php:98
+msgid "Timeline"
+msgstr ""
+
+#: src/Shortcodes/CompanyProfile.php:23
+msgid "Company name is required."
+msgstr ""
+
+#: src/Shortcodes/CompanyProfile.php:42
+msgid "Reg:"
+msgstr ""
+
+#: src/Shortcodes/CompanyProfile.php:45
+msgid "B-BBEE:"
+msgstr ""
+
+#: src/Shortcodes/CompanyProfile.php:51
+msgid "Directors"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:26
+msgid "Tenders-SA"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:27
+msgid "Display South African tender data in your sidebar."
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:92
+msgid "Title:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:98
+msgid "Display:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:100
+msgid "Tender List"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:101
+msgid "Closing Soon"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:102
+msgid "Quick Stats"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:103
+msgid "Counts by Province"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:107
+msgid "Number of items:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:140
+msgid "No tenders available."
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:176
+msgid "Stats unavailable."
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:185
+msgid "Total Tenders:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:188
+msgid "Active:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:191
+msgid "Awards:"
+msgstr ""
+
+#: src/Widgets/TendersaWidget.php:231
+msgid "No data."
+msgstr ""
+
+#: src/Widgets/TendersaStatsWidget.php:17
+msgid "Tenders-SA Stats"
+msgstr ""
+
+#: src/Widgets/TendersaStatsWidget.php:36
+msgid "Total Tenders"
+msgstr ""
+
+#: src/Widgets/TendersaStatsWidget.php:37
+msgid "Active"
+msgstr ""
+
+#: src/Widgets/TendersaStatsWidget.php:57
+msgid "Tenders-SA Stats"
+msgstr ""

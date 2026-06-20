@@ -47,6 +47,9 @@ class Plugin
         add_action('admin_menu', [$this, 'register_admin_menu']);
         add_action('admin_enqueue_scripts', [$this, 'admin_styles']);
         add_action('admin_notices', [$this, 'maybe_show_key_notice']);
+        add_action('admin_notices', [Admin\SettingsPage::class, 'handle_admin_notices']);
+
+        add_action('wp_enqueue_scripts', [$this, 'frontend_styles']);
 
         if (!Auth::resolve()) {
             return;
@@ -54,8 +57,6 @@ class Plugin
 
         $this->register_shortcodes();
         $this->register_widgets();
-
-        add_action('wp_enqueue_scripts', [$this, 'frontend_styles']);
 
         if (!wp_next_scheduled('tendersa_daily_cache_cleanup')) {
             wp_schedule_event(time(), 'daily', 'tendersa_daily_cache_cleanup');
@@ -77,11 +78,21 @@ class Plugin
 
     public function frontend_styles(): void
     {
-        if (has_shortcode(get_post()->post_content ?? '', 'tendersa_list') ||
-            has_shortcode(get_post()->post_content ?? '', 'tendersa_detail') ||
-            has_shortcode(get_post()->post_content ?? '', 'tendersa_search') ||
-            has_shortcode(get_post()->post_content ?? '', 'tendersa_closing_soon') ||
-            is_active_widget(false, false, 'tendersa_widget', true)) {
+        $post = get_post();
+        $has_shortcode = $post && has_shortcode($post->post_content ?? '', 'tendersa_list')
+            || has_shortcode($post->post_content ?? '', 'tendersa_detail')
+            || has_shortcode($post->post_content ?? '', 'tendersa_search')
+            || has_shortcode($post->post_content ?? '', 'tendersa_closing_soon')
+            || has_shortcode($post->post_content ?? '', 'tendersa_counts')
+            || has_shortcode($post->post_content ?? '', 'tendersa_awards')
+            || has_shortcode($post->post_content ?? '', 'tendersa_company')
+            || has_shortcode($post->post_content ?? '', 'tendersa_provinces')
+            || has_shortcode($post->post_content ?? '', 'tendersa_pipeline');
+
+        $has_widget = is_active_widget(false, false, 'tendersa_widget', true)
+            || is_active_widget(false, false, 'tendersa_stats_widget', true);
+
+        if ($has_shortcode || $has_widget) {
             wp_enqueue_style('tendersa-frontend', TENDERSA_PLUGIN_URL . 'assets/frontend.css', [], TENDERSA_VERSION);
         }
     }

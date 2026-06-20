@@ -1,0 +1,216 @@
+.tendersa-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+.tendersa-card-title {
+    margin: 0 0 8px;
+    font-size: 1.1em;
+}
+.tendersa-card-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    font-size: 0.9em;
+    color: #666;
+}
+.tendersa-badge {
+    display: inline-block;
+    background: #e8f0fe;
+    color: #1967d2;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    font-weight: 500;
+}
+.tendersa-date {
+    color: #d93025;
+    font-size: 0.9em;
+}
+.tendersa-value {
+    font-weight: 600;
+    color: #137333;
+}
+.tendersa-excerpt {
+    color: #555;
+    margin: 8px 0 0;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+.tendersa-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+    padding: 16px 0;
+}
+.tendersa-page-link {
+    text-decoration: none;
+    padding: 6px 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #1967d2;
+}
+.tendersa-page-info {
+    color: #666;
+    font-size: 0.9em;
+}
+.tendersa-search-form {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+.tendersa-search-input {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.tendersa-search-btn {
+    padding: 8px 16px;
+    background: #1967d2;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.tendersa-closing-soon li,
+.tendersa-search-list li,
+.tendersa-counts li,
+.tendersa-provinces li,
+.tendersa-orgs li,
+.tendersa-directors li,
+.tendersa-articles li,
+.tendersa-newsletters li,
+.tendersa-intel li,
+.tendersa-services li {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+.tendersa-error {
+    color: #d93025;
+    padding: 8px 12px;
+    background: #fce8e6;
+    border-radius: 4px;
+}
+.tendersa-alert {
+    padding: 12px 16px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+.tendersa-alert-warning {
+    background: #fef7e0;
+    border: 1px solid #f9ab00;
+    color: #e37400;
+}
+.tendersa-alert-success {
+    background: #e6f4ea;
+    border: 1px solid #34a853;
+    color: #137333;
+}
+.tendersa-widget-list,
+.tendersa-widget-closing,
+.tendersa-widget-stats,
+.tendersa-widget-counts {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.tendersa-widget-list li,
+.tendersa-widget-closing li,
+.tendersa-widget-stats li,
+.tendersa-widget-counts li {
+    padding: 6px 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 0.9em;
+}
+.tendersa-stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+.tendersa-stat {
+    text-align: center;
+    padding: 12px;
+    background: #f8f9fa;
+    border-radius: 6px;
+}
+.tendersa-stat-value {
+    display: block;
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #1967d2;
+}
+.tendersa-stat-label {
+    display: block;
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 2px;
+}
+.tendersa-awards-table,
+.tendersa-analytics-table,
+.tendersa-benchmarks {
+    width: 100%;
+    border-collapse: collapse;
+}
+.tendersa-awards-table th,
+.tendersa-analytics-table th,
+.tendersa-benchmarks th {
+    text-align: left;
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border-bottom: 2px solid #e0e0e0;
+    font-weight: 600;
+}
+.tendersa-awards-table td,
+.tendersa-analytics-table td,
+.tendersa-benchmarks td {
+    padding: 8px 12px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.tendersa-pipeline {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.tendersa-pipeline-step {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 16px;
+    background: #fff;
+}
+.tendersa-pipeline-step h3 {
+    margin: 0 0 8px;
+    font-size: 1em;
+    color: #1967d2;
+}
+.tendersa-countdown {
+    color: #d93025;
+    font-weight: 600;
+    font-size: 0.85em;
+}
+.tendersa-filter-bar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    margin-bottom: 16px;
+    padding: 8px 0;
+    font-size: 0.9em;
+}
+.tendersa-count {
+    font-weight: 600;
+    color: #444;
+}
+.tendersa-detail-meta p {
+    margin: 4px 0;
+    font-size: 0.95em;
+}
+.tendersa-detail-description,
+.tendersa-detail-ai-summary {
+    margin-top: 16px;
+}
